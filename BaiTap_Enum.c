@@ -63,7 +63,7 @@ int main() {
     totalDays += inputDay;
 
     // Tính thứ của ngày nhập vào
-    int dayOfWeek = (totalDays + 5) % 7; // Sử dụng công thức Zeller's Congruence
+    int dayOfWeek = (totalDays + 5) % 7;
 
     // Xuất kết quả
     switch (dayOfWeek) {
